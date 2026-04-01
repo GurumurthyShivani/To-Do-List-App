@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+    color: white;
+}
+.js-list{
+    height: 290px;
+    overflow-y: auto;
+    scrollbar-width: none; 
+    /* border: solid white; */
+}
+.container{
+    height: 500px;
+    width: 500px;
+    border: solid white;
+    margin-left: 700px;
+    margin-top: 150px;
+    border-radius: 20px ;
+    background-color: rgb(56, 54, 54);
+    /* background-color: black; */
+}
+.title{
+    color: green;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+.js-input{
+    height: 40px;
+    width: 380px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: none;
+    padding-left: 10px;
+}
+.js-add-button{
+    cursor: pointer;
+    height: 45px;
+    width: 50px;
+    font-size: 17px;
+    font-weight: bolder;
+    background-color: green;
+    border: none;
+}
+.js-todo-button,.js-complete-button{
+    cursor: pointer;
+    height: 30px;
+    width: 210px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+.js-todo-button{
+    background-color: green;
+}
+.js-task-todo{
+    display: grid;
+    grid-template-columns: 25px 345px 40px 40px;
+    align-items: center;
+    height: 40px;
+    width: 445px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color:dimgrey;
+}
+.js-task-completed{
+    display: grid;
+    grid-template-columns: 25px 345px;
+    align-items: center;
+    height: 40px;
+    width: 445px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: dimgray;
+
+}
+.js-pen-button,.js-trash-button{
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
+.js-editinput{
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.js-save-button{
+    height: 46px;
+    width: 60px;
+    font-size: 15px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.js-cancel-button{
+    height: 46px;
+    width: 70px;
+    font-size: 15px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+
